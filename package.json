@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "node -r esm ./node_modules/.bin/jsdoc --configure ./jsdoc.conf"
+  },
+  "dependencies": {
+    "esm": "^3.2.14",
+    "express": "^4.16.4",
+    "jsdoc": "^3.5.5",
+    "jsdoc-http-plugin": "https://github.com/OmgImAlexis/jsdoc-http-plugin"
+  }
+}
